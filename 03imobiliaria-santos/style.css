@@ -1,0 +1,149 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+  padding: 30px 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+ul li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  margin: 0;
+}
+p{
+  width: 980px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 auto;
+}
+span{
+  font-weight: bold;
+}
+h2{
+  font-weight: normal;
+  margin: 0;
+  color: #1c81c0;
+}
+.texto-azul{
+  color: #1c81c0;
+}
+.texto-amarelo{
+  color: #fff81b;
+}
+
+#logo ul{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+#logo a{
+  font-size: 18px;
+  color: #1d1d1d;
+  border-bottom: 2px solid #1d1d1d;
+}
+#logo{
+  background-color: #afddfb;
+}
+#logo img{
+  width: 150px;
+}
+#banner{
+  margin-top: 50px;
+}
+#sobre h1{
+  color: #1d1d1d;
+  margin-bottom: 5px;
+}
+#sobre img{
+  width: 450px;
+}
+#servicos{
+  background-color: #1c81c1;
+  color: #ffffff;
+}
+#servicos h2{
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+#servicos p{
+  color: #ffffff;
+  line-height: 42px;
+  font-size: 22px;
+  text-align: center;
+  width: 700px;
+}
+#servicos ul{
+  margin: 40px auto;
+  width: 135px;
+  
+}
+#servicos li{
+  list-style: disc;
+  font-size: 22px;
+  text-align: left;
+  line-height: 42px;
+}
+#corretores h2{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+#corretores img{
+  width: 450px;
+  margin-bottom: 30px;
+}
+#corretores a{
+  color: #0b4e77;
+  text-decoration: underline;
+}
+
+#contato{
+  background-color: #1c81c1;
+}
+
+#contato h2{
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+
+#contato p{
+  color: #ffffff;
+  padding: 15px;
+  background-color: #1d1d1d;
+  margin: 30px auto;
+}
+#contato ul{
+  margin: 40px auto;
+  width: 210px;
+  }
+
+  #contato li{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    
+  }
+  #contato a{
+    text-decoration: underline;
+    background-color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 5px;
+  }
