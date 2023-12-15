@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Lato&family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+  list-style: none;
+}
+
+.fixo{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+.topo{
+    height: 100px;
+    width: 100%;
+    background-color: #604829;
+    position: relative;
+    
+}
+.topo img{
+    height: 100px;
+    position: absolute;
+    left: 15%;
+}
+.topo ul{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+.topo ul li{
+    list-style: none;
+}
+.topo a{
+    color: #c4a47c;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #000000bb;
+    font-family: "Oswald";
+    font-size: 18px;
+}
+#banner{
+    height: 100vh;
+    background: #000 url(../img/parallax-imagem1.png) fixed;
+    background-size: cover;
+    position: relative;
+  
+}
+#banner h1{
+    font-size: 80px;
+    font-weight: normal;
+    color: #fff;
+    font-family: "Fraunces";
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+}
+.texto{
+  padding: 80px 0;
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+.texto h2{
+  font-size: 18px;
+  font-family: "Oswald";
+  color: #c4a47c;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.texto p{
+  font-size: 16px;
+  font-family: "Lato";
+  color: #666;
+  padding: 0 20px;
+}
+.bg-info1{
+  width: 100%;
+  height: 50vh;
+  background: #000 url(../img/parallax-imagem2.jpg) center fixed;
+  background-size: cover;
+  position: relative;
+}
+.sub1{
+  font-size: 24px;
+  font-weight: normal;
+  font-family: "Fraunces";
+  color: #fff;
+  text-align: center;
+  background-color: #604829;
+  width: 400px;
+  padding: 10px;
+  position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+.bg-info2{
+  width: 100%;
+  height: 50vh;
+  background: #000 url(../img/parallax-imagem3.jpg) center fixed;
+  background-size: cover;
+  position: relative;
+}
+.sub2{
+  font-size: 24px;
+  font-weight: normal;
+  font-family: "Fraunces";
+  color: #fff;
+  text-align: center;
+  background-color: #604829;
+  width: 400px;
+  padding: 10px;
+  position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+.bg-info3{
+  height: 100vh;
+  background: #000 url(../img/parallax-imagem4.png) center fixed;
+  position: relative;
+}
+.cont1{
+  font-size: 24px;
+  font-weight: normal;
+  font-family: "Oswald";
+  color: #fff;
+  text-align: center;
+  background-color: #604829;
+  width: 400px;
+  padding: 10px;
+  position: absolute;
+  top: 10%;
+  left: 38%;
+}
+#contato iframe{
+  width: 980px;
+  height: 350px;
+  position: absolute;
+  top: 23%;
+  left: 15%;
+}
+.cont2{
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Oswald";
+  color: #fff;
+  text-align: center;
+  background-color: #604829;
+  width: 450px;
+  padding: 10px;
+  position: absolute;
+  bottom: 8%;
+  left: 35%;
+}
+#horario{
+  height: 85vh;
+  background: #000 url(../img/cafeteria.jpg) center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+#horario h2{
+  color: #fff;
+  font-family: "Oswald";
+  right: 40%;
+  position: absolute;
+  top: 20%;
+}
+.lista{
+  font-family: "Oswald";
+  font-weight: bold;
+  color: #fff;
+  width: 768px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 28%;
+  right: 0;
+  left: 0;
+}
+.lista li {
+  position: relative;
+}
+.lista p{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+span{
+  color: #c4a47c;
+}
+
+.lista li div{
+  width: 70%;
+  height: 2px;
+  background-color: #acacac;
+  position: absolute;
+  bottom: 50%;
+  left:13%;
+}
+#rodape{
+  background-color: #000;
+  height: 70px;
+  position: relative;
+
+}
+#rodape p{
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Oswald";
+}
+#rodape a{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 60px;
+  bottom: 40px;
+}
