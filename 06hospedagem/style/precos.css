@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/*Estilos Gerais*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root{
+  --cor1:#000;
+  --cor2:#f6f6f6;
+  --cor3:#fff;
+  --cor4:#a89f9f;
+  --cor5:#233032;
+  --cor6:#2f86d6;
+}
+li{
+  list-style: none;
+}
+span{
+  color: var(--cor6);
+}
+a{
+  text-decoration: none;
+  color: var(--cor1);
+}
+.container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.bg-blue{
+  background-color: var(--cor6);
+}
+.bold{
+  font-weight: bold;
+}
+/*Header*/
+header{
+  display: flex;
+  position: relative;
+  padding: 30px 0px;
+}
+header h1{
+  padding: 0px 10px;
+  font-weight: bold;
+}
+header p{
+  padding: 0px 10px 10px 10px;
+  font-weight: bold;
+  color: var(--cor3);
+}
+header img{
+  height: 80px;
+  width: 80px;
+}
+.menu{
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+.menu li a{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--cor3);
+}
+/*Tabela2*/
+.tabela2{
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.tabela2-small{
+  color: var(--cor4);
+  font-size: 13px;
+}
+.destaque{
+  font-size: 32px;
+}
+tbody td{
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+.yes::after{
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: 45%;
+  color: var(--cor6);
+  background-color: var(--cor6);
+}
+/*Footer*/
+footer{
+  background-color: var(--cor6);
+}
+footer img{
+  height: 80px;
+  width: 80px;
+}
+footer p{
+  text-align: center;
+  color: var(--cor3);
+  padding-bottom: 50px;
+}
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+}
+.footer-logo h1{
+  padding: 0px 10px;
+  font-weight: bold;
+}
+.footer-logo p{
+  font-weight: bold;
+  color: var(--cor2);
+  padding: 0px 10px 10px 10px;
+  }
+
+.aluno{
+  background-color: var(--cor3);
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--cor1);
+  padding: 20px 0px;
+
+}
