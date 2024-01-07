@@ -5,7 +5,9 @@
   box-sizing: border-box;
   font-family: 'Ysabeau Infant', sans-serif;
 }
-
+body{
+  overflow-x: hidden;
+}
 li{
   list-style: none;
   width: 350px;
@@ -32,7 +34,7 @@ a:hover{
 }
 
 .banner{
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   position: relative;
 }
@@ -80,9 +82,44 @@ a:hover{
 .banner-video{
   width: 100vw;
 }
+
 .info{
   width: 100vw;
-  height: 110vh;
-  background: #7382C1 url(../img/bg_one\ .jpg) fixed center center;
-  background-size: contain;
+  height: 100vh;
+  background: #7382C1 url(../img/bg_one2.jpg) fixed center center no-repeat;
+  background-size: cover;
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-family: "Montserrat";
+  position: relative;
+}
+.info h2{
+  font-size: 3.5rem;
+  color: #fff;
+  text-shadow: 4px 3px #000;
+}
+.info table tr td, .info table tr th{
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.info tbody tr:nth-child(even), .info thead tr {
+  background-color: #000000cc;
+  color: #fff;
+}
+.info tbody tr:nth-child(odd){
+  background-color: #ffffffa3;
+}
+.info::after{
+  content: "Desenvolvido por Douglas Santos, aluno DevMedia";
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  color: #1d1551;
+  background-color: #6fb7f5a6;
+  padding: 5px;
 }
