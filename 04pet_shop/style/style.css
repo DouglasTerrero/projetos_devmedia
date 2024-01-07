@@ -7,8 +7,9 @@
   color: #3c184e;
 }
 .banner{
-  padding:120px 80px;
+  padding:80px 80px 120px 80px;
   width: 100%;
+  height: 100vh;
   background: url(../img/banner-topo.jpg) center center no-repeat;
   background-size: cover;
 }
@@ -40,17 +41,18 @@
 .titulo img{
   width: 20px;
 }
-.titulo h2{
+.titulo h1{
   font-size: 4.25rem;
   text-align: center;
 }
 .titulo a{
   background-color: #3c184e;
-  padding: 10px;
+  padding: 12px;
   border-radius: 10px;
   color: #fff;
   display: flex;
   margin: 20px auto;
+  justify-content: space-between;
   align-items: center;
   gap: 10px;
   max-width: 160px;
@@ -59,10 +61,10 @@
   width: 800px;
   margin: 0 auto;
 }
-.servicos{
+.servicos, .marcas, .mapa-container{
   margin: 120px auto;
 }
-.servicos h2{
+h2{
   font-size: 3rem;
   text-align: center;
   margin-bottom: 40px;
@@ -80,7 +82,6 @@
 .redes-sociais{
   background-color: #3c184e;
   padding: 80px 80px;
-
 }
 
 .redes-sociais p,.redes-sociais span{
@@ -102,4 +103,25 @@
 
 .icones img{
   width: 60px;
+}
+.marcas-img{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.mapa-container{
+  max-width: 1024px;
+}
+.rodape{
+  background-color: #3c184e;
+  padding: 10px 0;
+  text-align: center;
+}
+.rodape p, .rodape span{
+  color:#fff ;
+}
+.rodape span{
+  font-weight: bold;
 }
