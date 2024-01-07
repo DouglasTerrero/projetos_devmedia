@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ysabeau+Infant&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+
+li{
+  list-style: none;
+  width: 350px;
+  height: 30px;
+  background-color: #1d1551;
+  opacity: 0.95;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+li:hover{
+  background-color: #6fb6f5;
+  color: #1d1551;
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding: 2.5px 125px;
+  color: #fff;
+}
+a:hover{
+  color: #1d1551;
+}
+
+.banner{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.banner-info{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner-info h2{
+  color: #fff;
+  font-size: 2.5rem;
+  text-shadow: 4px 3px #000;
+  position: relative;
+}
+.banner-info h2::before{
+  content: "";
+  width: 175px;
+  height: 5px;
+  position: absolute;
+  bottom: 0;
+  background-image: linear-gradient(to right, #3fcf17,#2913d3);
+}
+
+.banner-info img{
+  position: relative;
+}
+.info-grad::before{
+  content: "";
+  width: 215px;
+  height: 215px;
+  background-image: linear-gradient(to right, #6fb6f5,#16344f);
+  position: absolute;
+  top: -7.5px;
+  left: 67px;
+  border-radius: 50%;
+}
+
+.banner-video{
+  width: 100vw;
+}
+.info{
+  width: 100vw;
+  height: 110vh;
+  background: #7382C1 url(../img/bg_one\ .jpg) fixed center center;
+  background-size: contain;
+}
