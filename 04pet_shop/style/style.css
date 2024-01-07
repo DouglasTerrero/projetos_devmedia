@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #3c184e;
+}
+.banner{
+  padding:120px 80px;
+  width: 100%;
+  background: url(../img/banner-topo.jpg) center center no-repeat;
+  background-size: cover;
+}
+.logo{
+  max-width: 290px;
+  margin-bottom: 80px;
+}
+.logo img{
+  width: 30px;
+  margin-right: 5px;
+}
+.logo span{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.logo p{
+  font-weight: bold;
+}
+.titulo{
+  width: 1024px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  gap: 20px;
+  background-color: #feffff5d;
+  border-radius: 15px;
+  box-shadow: 8px 8px 10px 2px #00000028,-8px -8px 10px 2px #00000028;
+  font-weight: bold;
+}
+.titulo img{
+  width: 20px;
+}
+.titulo h2{
+  font-size: 4.25rem;
+  text-align: center;
+}
+.titulo a{
+  background-color: #3c184e;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  margin: 20px auto;
+  align-items: center;
+  gap: 10px;
+  max-width: 160px;
+}
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+.servicos{
+  margin: 120px auto;
+}
+.servicos h2{
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.servicos ul{
+  margin: 60px 0;
+}
+.servicos li{
+  margin: 20px 0;
+}
+.servicos-img img{
+  border-radius: 5px;
+  box-shadow: 8px 8px 10px 2px #00000028,-8px -8px 10px 2px #00000028;
+}
+.redes-sociais{
+  background-color: #3c184e;
+  padding: 80px 80px;
+
+}
+
+.redes-sociais p,.redes-sociais span{
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.redes-sociais span{
+  font-weight: bold;
+}
+
+.icones{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icones img{
+  width: 60px;
+}
