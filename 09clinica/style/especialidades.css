@@ -118,3 +118,67 @@ li{
 .tabela-espec tbody tr:nth-child(even){
   background-color: #f1f1f1;
 }
+/*Estilo Responsivo*/
+
+@media screen and (max-width:425px){
+  .menu div{
+    flex-direction: column;
+  }
+  p, a, li{
+    font-size: 0.85em;
+  }
+  .menu li{
+    font-size: 0.85em;
+  }
+  .titulo h2{
+    font-size: 1em;
+    padding-top: 0;
+  }
+  .titulo p{
+    margin: 0 10px;
+  }
+  .menu ul{
+    border-top: 2px solid #0081856c;
+    padding: 10px 0;
+  }
+  .tabela-espec img{
+    display: none;
+  }
+  .menu-espec ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .container1{
+    width: 100%;
+  }
+}
+@media screen and (min-width:426px) and (max-width:768px){
+
+  p, a, li{
+    font-size: 1em;
+  }
+  p{
+    margin: 0px 15px;
+  }
+  .menu img{
+    height: 60px;
+  }
+  .rodape img{
+    max-height: 80px;
+  }
+  .tabela-espec img{
+    display: none;
+  }
+  .menu-espec ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .menu a{
+    font-size: 1rem;
+  }
+  .menu nav ul{
+    gap: 0px;
+  }
+}
