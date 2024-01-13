@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans 3";
+  color: #008085;
+}
+p{
+  font-size: 1.25em;
+}
+li{
+  list-style: none;
+}
+.menu a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.25em;
+  padding: 5px 10px;
+}
+.container1{
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.menu {
+  background-color: #00CAD1;
+}
+.menu img{
+  height: 75px;
+}
+.menu div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu nav ul{
+  display: flex;
+  gap: 20px;
+}
+.menu nav a:hover, .info-espec a:hover{
+  color: #008085;
+}
+.titulo {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.titulo h2{
+  font-size: 1.5rem;
+  padding: 20px 0px 20px;
+}
+.titulo p{
+  padding-bottom: 1em;
+}
+.rodape{
+  background-color: #008085;
+  text-align: center;
+  padding: 20px 0px;
+}
+.rodape a{
+  color: #fff;
+  text-decoration: none;
+}
+.rodape a:hover{
+  color: #bcaeae;
+  text-decoration: none;
+}
+.rodape p{
+  color: #fff;
+  padding: 10px 0px;
+}
+.menu-espec{
+  padding: 20px 0px;
+  font-size: 1.25em;
+}
+.menu-espec ul {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.menu-espec a{
+  text-decoration: none;
+  border-bottom: 1px solid #014446;
+  font-weight: bold;
+}
+.menu-espec a:hover{
+  color: #005070;
+  border-bottom: 2px solid #014446;
+
+}
+.titulo-espec{
+  text-align: center;
+  padding: 20px 0px;
+}
+.tabela-espec{
+  display: flex;
+  margin: 20px 0px;
+}
+.tabela-espec img{
+  max-height: 250px;
+}
+.tabela-espec table{
+  width: 100%;
+  text-align: center;
+}
+.tabela-espec table thead tr{
+  background-color: #00CBD3;
+}
+.tabela-espec table th{
+  padding: 20px 0;
+  color: #fff;
+}
+.tabela-espec tbody tr:nth-child(odd){
+  background-color: #CDCDCD;
+}
+.tabela-espec tbody tr:nth-child(even){
+  background-color: #f1f1f1;
+}
