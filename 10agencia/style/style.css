@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #80808029;
+  font-family: "Raleway";
+}
+.container{
+  width: 1024px;
+  margin: 0 auto;
+}
+.cabecalho{
+  background-color: #fff;
+}
+.cabecalho div{
+  display: flex;
+  gap: 10px;
+  padding: 15px 0;
+  color: #583EA2;
+}
+.cabecalho img{
+  width: 32px;
+}
+.orcamento{
+  height: 90vh;
+  background: #fff url(../img/bahia.jpg) center no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+.orcamento-cabecalho{
+  background-color: #583EA2;
+  color: #fff;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0;
+}
+.orcamento-cabecalho img{
+  width: 22px;
+  rotate: -45deg;
+}
+.orcamento-form{
+  height: 100%;
+  padding: 30px 25px 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.orcamento-form h2{
+  font-size: 22px;
+  margin-bottom: 24px;
+}
+.orcamento-form input{
+  width: 100%;
+}
